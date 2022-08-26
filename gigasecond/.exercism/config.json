@@ -1,27 +1,29 @@
 {
-  "blurb": "Tally the results of a small football competition.",
+  "blurb": "Given a moment, determine the moment that would be after a gigasecond has passed.",
   "authors": [
-    "EduardoBautista"
+    "IanWhitney"
   ],
   "contributors": [
-    "andrewclarkson",
+    "andy5995",
     "ashleygwilliams",
-    "ClashTheBunny",
+    "cbzehner",
     "coriolinus",
     "cwhakes",
     "EduardoBautista",
     "efx",
     "ErikSchierboom",
-    "etrepum",
+    "houhoulis",
     "IanWhitney",
-    "kytrinyx",
+    "janczer",
+    "leoyvens",
     "lutostag",
     "mkantor",
-    "navossoc",
     "nfiles",
+    "NieDzejkob",
+    "ocstl",
     "petertseng",
     "rofrol",
-    "samcday",
+    "sacherjj",
     "stringparser",
     "xakon",
     "ZapAnton"
@@ -32,10 +34,12 @@
       "Cargo.toml"
     ],
     "test": [
-      "tests/tournament.rs"
+      "tests/gigasecond.rs"
     ],
     "example": [
       ".meta/example.rs"
     ]
-  }
+  },
+  "source": "Chapter 9 in Chris Pine's online Learn to Program tutorial.",
+  "source_url": "http://pine.fm/LearnToProgram/?Chapter=09"
 }
